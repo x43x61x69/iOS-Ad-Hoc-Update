@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421926141EC3EBFD001460A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 421926131EC3EBFD001460A1 /* main.m */; };
+		421926171EC3EBFD001460A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 421926161EC3EBFD001460A1 /* AppDelegate.m */; };
+		4219261A1EC3EBFD001460A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 421926191EC3EBFD001460A1 /* ViewController.m */; };
+		4219261D1EC3EBFD001460A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4219261B1EC3EBFD001460A1 /* Main.storyboard */; };
+		4219261F1EC3EBFD001460A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4219261E1EC3EBFD001460A1 /* Assets.xcassets */; };
+		421926221EC3EBFD001460A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421926201EC3EBFD001460A1 /* LaunchScreen.storyboard */; };
+		4219262C1EC3EC64001460A1 /* UIAdHocUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4219262B1EC3EC64001460A1 /* UIAdHocUpdate.m */; };
+		4219262F1EC3EDC3001460A1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4219262D1EC3EDC3001460A1 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4219260F1EC3EBFD001460A1 /* Ad-Hoc Update.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ad-Hoc Update.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		421926131EC3EBFD001460A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		421926151EC3EBFD001460A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		421926161EC3EBFD001460A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		421926181EC3EBFD001460A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		421926191EC3EBFD001460A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4219261C1EC3EBFD001460A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4219261E1EC3EBFD001460A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		421926211EC3EBFD001460A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		421926231EC3EBFD001460A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4219262A1EC3EC64001460A1 /* UIAdHocUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIAdHocUpdate.h; path = ../../Source/UIAdHocUpdate.h; sourceTree = "<group>"; };
+		4219262B1EC3EC64001460A1 /* UIAdHocUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIAdHocUpdate.m; path = ../../Source/UIAdHocUpdate.m; sourceTree = "<group>"; };
+		4219262E1EC3EDC3001460A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4219260C1EC3EBFD001460A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		421926061EC3EBFD001460A1 = {
+			isa = PBXGroup;
+			children = (
+				421926291EC3EC24001460A1 /* Classes */,
+				421926111EC3EBFD001460A1 /* Ad-Hoc Update */,
+				421926101EC3EBFD001460A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		421926101EC3EBFD001460A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4219260F1EC3EBFD001460A1 /* Ad-Hoc Update.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		421926111EC3EBFD001460A1 /* Ad-Hoc Update */ = {
+			isa = PBXGroup;
+			children = (
+				421926151EC3EBFD001460A1 /* AppDelegate.h */,
+				421926161EC3EBFD001460A1 /* AppDelegate.m */,
+				421926181EC3EBFD001460A1 /* ViewController.h */,
+				421926191EC3EBFD001460A1 /* ViewController.m */,
+				421926121EC3EBFD001460A1 /* Supporting Files */,
+			);
+			path = "Ad-Hoc Update";
+			sourceTree = "<group>";
+		};
+		421926121EC3EBFD001460A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				421926201EC3EBFD001460A1 /* LaunchScreen.storyboard */,
+				4219261B1EC3EBFD001460A1 /* Main.storyboard */,
+				4219262D1EC3EDC3001460A1 /* Localizable.strings */,
+				4219261E1EC3EBFD001460A1 /* Assets.xcassets */,
+				421926231EC3EBFD001460A1 /* Info.plist */,
+				421926131EC3EBFD001460A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		421926291EC3EC24001460A1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4219262A1EC3EC64001460A1 /* UIAdHocUpdate.h */,
+				4219262B1EC3EC64001460A1 /* UIAdHocUpdate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4219260E1EC3EBFD001460A1 /* Ad-Hoc Update */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421926261EC3EBFD001460A1 /* Build configuration list for PBXNativeTarget "Ad-Hoc Update" */;
+			buildPhases = (
+				4219260B1EC3EBFD001460A1 /* Sources */,
+				4219260C1EC3EBFD001460A1 /* Frameworks */,
+				4219260D1EC3EBFD001460A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ad-Hoc Update";
+			productName = "Ad-Hoc Update";
+			productReference = 4219260F1EC3EBFD001460A1 /* Ad-Hoc Update.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		421926071EC3EBFD001460A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Zhi-Wei Cai";
+				TargetAttributes = {
+					4219260E1EC3EBFD001460A1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 928652TY3Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4219260A1EC3EBFD001460A1 /* Build configuration list for PBXProject "Ad-Hoc Update" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 421926061EC3EBFD001460A1;
+			productRefGroup = 421926101EC3EBFD001460A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4219260E1EC3EBFD001460A1 /* Ad-Hoc Update */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4219260D1EC3EBFD001460A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421926221EC3EBFD001460A1 /* LaunchScreen.storyboard in Resources */,
+				4219262F1EC3EDC3001460A1 /* Localizable.strings in Resources */,
+				4219261F1EC3EBFD001460A1 /* Assets.xcassets in Resources */,
+				4219261D1EC3EBFD001460A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4219260B1EC3EBFD001460A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4219261A1EC3EBFD001460A1 /* ViewController.m in Sources */,
+				421926171EC3EBFD001460A1 /* AppDelegate.m in Sources */,
+				4219262C1EC3EC64001460A1 /* UIAdHocUpdate.m in Sources */,
+				421926141EC3EBFD001460A1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4219261B1EC3EBFD001460A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4219261C1EC3EBFD001460A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		421926201EC3EBFD001460A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				421926211EC3EBFD001460A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4219262D1EC3EDC3001460A1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4219262E1EC3EDC3001460A1 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		421926241EC3EBFD001460A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		421926251EC3EBFD001460A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		421926271EC3EBFD001460A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 928652TY3Y;
+				INFOPLIST_FILE = "Ad-Hoc Update/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vg.vox.Ad-Hoc-Update";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		421926281EC3EBFD001460A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 928652TY3Y;
+				INFOPLIST_FILE = "Ad-Hoc Update/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vg.vox.Ad-Hoc-Update";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4219260A1EC3EBFD001460A1 /* Build configuration list for PBXProject "Ad-Hoc Update" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421926241EC3EBFD001460A1 /* Debug */,
+				421926251EC3EBFD001460A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421926261EC3EBFD001460A1 /* Build configuration list for PBXNativeTarget "Ad-Hoc Update" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421926271EC3EBFD001460A1 /* Debug */,
+				421926281EC3EBFD001460A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 421926071EC3EBFD001460A1 /* Project object */;
+}
